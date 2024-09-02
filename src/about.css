@@ -1,0 +1,48 @@
+.about{
+    background: linear-gradient(to top, #6ca9ee8d, #FFFFFF);
+    height: 100vh;
+    width: 100%;
+}
+
+
+.row{
+    height: 100%;
+}
+.col{
+    height: 100%;
+}
+
+h2{
+
+    color: #08294F;
+    font-size: 3rem;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-r{
+    background-color: #08294F ;
+    border-radius:3px;
+    border: none ;
+    font-size: 1.5rem;
+    color: #12EBB7;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5{
+    /* background-color: #ffffff ; */
+    /* border-radius:3px; */
+    color: rgb(8, 41, 79);
+}
+
+.image{
+    /* background-image: url('./assets/create.jpg'); */
+    background-size: cover;
+    height: 90%;
+    width:90%;
+}

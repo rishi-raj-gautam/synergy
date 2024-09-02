@@ -1,0 +1,105 @@
+.schedule {
+    height: auto;
+    background: linear-gradient(to bottom, #6ca9ee8d, #FFFFFF);
+    padding: 20px;
+  }
+  
+  .sch {
+    color:#08294F;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .card-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    /* border: 4px solid #12EBB7; */
+    width: 250px; /* Increased card width */
+    background: #08294F;
+    padding: 1em;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Add hover effect for cards */
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 150px; /* Increased card image height */
+    border-radius: 6px 6px 0 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: #12EBB7;;
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+  .txt{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    text-align: left;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 45%; /* Adjust card width on tablets */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      width: 90%; /* Adjust card width on smaller devices */
+    }
+  }
+  

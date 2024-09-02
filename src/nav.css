@@ -1,0 +1,40 @@
+/* nav.css */
+.navbar {
+    background: linear-gradient(to bottom, #08294f00, #FFFFFF);
+    position: fixed;
+    z-index: 2;
+    /* top: fixed; */
+}
+
+.nav-link {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color:#12EBB7;
+    color:  #08294F!important; /* Using !important to override other styles if necessary */
+    border-radius: 5px;
+}
+
+.nav-link.active {
+    color: #08294F !important; /* Ensure the active state is styled correctly */
+}
+
+.footer{
+
+    font-size:1rem;
+}
+
+button{
+    background-color: #08294F ;
+    border-radius:3px;
+    border: none ;
+    /* font-size: 1.5rem; */
+    color: #12EBB7;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
