@@ -62,11 +62,8 @@ function Schedule() {
                             {/* Text Container */}
                             <div className="text-container text-center">
                                 <h2 className='txt'>
-                                    Seats Available: 150
-                                    <br />
-                                    Registration: First come, first served basis
-                                    <br/>
-                                    <br/>
+                                    
+        
                                     ⏰ Time: 10:30 AM - 3:30 PM (Each Saturday)
                                     📍 Venue: Block A3 Seminar Hall
                                     <br/>

@@ -40,6 +40,11 @@ button{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+button:hover{
+    border-radius:2rem;
 }
 
 
