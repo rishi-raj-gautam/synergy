@@ -1,9 +1,10 @@
 import './nav.css'
+import synergyImage from './assets/Synergy.png';
 function Nav() {
     return <>
         <nav className="navbar navbar-expand-lg container-fluid">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><img src="src\assets\Synergy.png" height="40px" width="224px"></img></a>
+                <a className="navbar-brand" href="#"><img src={synergyImage} height="40px" width="224px"></img></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
