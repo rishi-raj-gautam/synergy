@@ -1,5 +1,5 @@
 import './about.css'
-import synergyImage from 'src/assets/Synergy.png';
+import synergyImage from './assets/Synergy.png';
 function About() {
     return <>
         <div className="about container-fluid" id="about">
