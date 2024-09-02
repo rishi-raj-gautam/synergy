@@ -25,12 +25,17 @@
     font-size:1rem;
 }
 
+a{
+    text-decoration: none;
+    color: #12EBB7;
+}
+
 button{
     background-color: #08294F ;
     border-radius:3px;
     border: none ;
     /* font-size: 1.5rem; */
-    color: #12EBB7;
+    
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;

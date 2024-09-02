@@ -17,7 +17,7 @@ function Nav() {
                         
 
                        <button className="button mx-2 px-3">
-                            <span>Regsiter Now</span>
+                            <a href='https://forms.gle/9d3Bd8hEGX4so24p8' target='_blank'><span>Regsiter Now</span></a>
                             <span></span>
                         </button>
                     </div>
