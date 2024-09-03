@@ -1,30 +1,33 @@
 import './schedule.css';
-
+import Rea from './assets/Research.png'
+import Idea from './assets/Idea.png'
+import Inno from './assets/Inno.jpg'
+import symp from './assets/symp.jpg'
 function Schedule() {
     const cardData = [
         {
-            imageUrl: 'src/assets/Research.png',
+            imageUrl: Rea,
             category: 'Day 1: 7th September 2024',
             heading: 'Research Paper Writing and Publishing 📝',
             authorName: 'by Dr. Abhishek Pandey',
             
         },
         {
-            imageUrl: 'src/assets/Idea.png',
+            imageUrl: Idea,
             category: 'Day 2: 14th September 2024',
             heading: 'Patent Filing 🛡',
             authorName: 'by Dr. Sartajvir Singh',
             
         },
         {
-            imageUrl: 'src/assets/Inno.jpg',
+            imageUrl: Inno,
             category: 'Day 3: 21st September 2024',
             heading: 'Innovators Lab 🛠',
             authorName: 'by Prof. Sachin Ahuja',
             
         },
         {
-            imageUrl: 'src/assets/symp.jpg',
+            imageUrl: symp,
             category: 'Day 4: 28th September 2024',
             heading: 'Symposium 🎤',
             authorName: 'All',
