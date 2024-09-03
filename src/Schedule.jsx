@@ -39,9 +39,9 @@ function Schedule() {
         <>
             <div className="schedule container-fluid d-flex flex-column justify-content-center" id="schedule">
                 <h2 className="sch mb-5 text-center">Schedule</h2>
-                <div className="container text-center">
+                <div className="container-fluid text-center">
                     <div className="row">
-                        <div className="col-lg-8 col-mb-12 mb-3">
+                        <div className=" col-lg-8 col-mb-12 mb-3">
                             {/* Card Container */}
                             <div className="card-container d-flex flex-wrap justify-content-center">
                                 {cardData.map((card, index) => (
