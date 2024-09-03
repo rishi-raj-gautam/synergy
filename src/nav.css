@@ -11,14 +11,20 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    background-color:#12EBB7;
+    /* background-color:#12EBB7; */
     color:  #08294F!important; /* Using !important to override other styles if necessary */
     border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color:#12EBB7;
 }
 
 .nav-link.active {
     color: #08294F !important; /* Ensure the active state is styled correctly */
 }
+
+
 
 .footer{
 
@@ -30,16 +36,26 @@ a{
     color: #12EBB7;
 }
 
-button{
+.btn{
     background-color: #08294F ;
     border-radius:3px;
     border: none ;
     /* font-size: 1.5rem; */
-    
+    color: #12EBB7;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.btn:hover{
+    border-radius:2rem;
+    background-color:#08294F ;
+}
+
+button{
+
     transition: background-color 0.3s, border-radius 0.3s;
 }
 
