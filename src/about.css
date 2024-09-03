@@ -46,3 +46,36 @@ h5{
     height: 90%;
     width:90%;
 }
+
+.synergy-image {
+    width: 100%; /* Make the image take full width of its container */
+    max-width: 560px; /* Restrict the maximum width to prevent it from getting too large */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.about {
+    background: linear-gradient(to top, #6ca9ee8d, #FFFFFF);
+    min-height: 100vh; /* Use min-height instead of height to accommodate content dynamically */
+    width: 100%;
+    padding: 20px; /* Add padding to make the content more responsive */
+}
+
+.col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text for a cleaner layout */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .btn-r {
+        font-size: 1.2rem; /* Adjust button size for smaller screens */
+    }
+}
