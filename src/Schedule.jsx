@@ -3,39 +3,39 @@ import './schedule.css';
 function Schedule() {
     const cardData = [
         {
-            imageUrl: 'src/assets/image1.jpg',
+            imageUrl: 'src/assets/Research.png',
             category: 'Day 1: 7th September 2024',
             heading: 'Research Paper Writing and Publishing 📝',
-            authorName: 'Abi',
-            date: '4 days ago',
+            authorName: 'by Dr. Abhishek Pandey',
+            
         },
         {
-            imageUrl: 'src/assets/image2.jpg',
+            imageUrl: 'src/assets/Idea.png',
             category: 'Day 2: 14th September 2024',
             heading: 'Patent Filing 🛡',
-            authorName: 'John',
-            date: '2 days ago',
+            authorName: 'by Dr. Sartajvir Singh',
+            
         },
         {
-            imageUrl: 'src/assets/image3.jpg',
+            imageUrl: 'src/assets/Inno.jpg',
             category: 'Day 3: 21st September 2024',
             heading: 'Innovators Lab 🛠',
-            authorName: 'Jane',
-            date: '1 day ago',
+            authorName: 'by Prof. Sachin Ahuja',
+            
         },
         {
-            imageUrl: 'src/assets/image4.jpg',
+            imageUrl: 'src/assets/symp.jpg',
             category: 'Day 4: 28th September 2024',
             heading: 'Symposium 🎤',
-            authorName: 'Doe',
-            date: '5 days ago',
+            authorName: 'All',
+    
         },
     ];
 
     return (
         <>
             <div className="schedule container-fluid d-flex flex-column justify-content-center" id="schedule">
-                <h2 className="sch my-5 text-center">Schedule</h2>
+                <h2 className="sch mb-5 text-center">Schedule</h2>
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-lg-8 col-md-12 mb-3">

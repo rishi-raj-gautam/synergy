@@ -6,6 +6,7 @@ import Nav from './Nav'
 import About from './About'
 import Schedule from './Schedule'
 import Footer from './Footer'
+import Speaker from './Speakers'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,9 @@ function App() {
     <Nav/>
     <About/>
     <Schedule/>
+    <Speaker/>
     <Footer/>
+    
     </>
   )
 }

@@ -1,0 +1,78 @@
+/* Container styling */
+.speaker {
+    padding: 20px;
+    background: linear-gradient(to top, #6ca9ee8d, #FFFFFF);
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Adjusted for larger headings */
+    color: #343a40; /* Darker color for contrast */
+}
+
+/* Carousel image styling */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: contain; /* Ensures the image covers the area without stretching */
+}
+
+/* Caption styling */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    margin: 0;
+    color: #ffffff; /* White text for captions */
+    font-size: 1.2rem;
+    /* text-align: left; */
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+/* Control button styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for control icons */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-item img {
+        max-height: 300px; /* Reduce height on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption {
+        padding: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
