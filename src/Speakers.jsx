@@ -4,7 +4,7 @@ import Adv from './assets/Advisor.jpg'
 import './speaker.css'
 function Speaker(){
     return <>
-    <div className='container-fluid speaker'>
+    <div className='container-fluid speaker' id="speakers">
         <div><h2 className='sch my-5 text-center'>Speakers</h2></div>
         <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">

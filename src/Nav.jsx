@@ -13,7 +13,7 @@ function Nav() {
                         
                         <a className="nav-link active mx-1 px-3 my-1" aria-current="page" href="#about">About</a>
                         <a className="nav-link active mx-1 px-3 my-1" aria-current="page" href="#schedule">Schedule</a>
-                        
+                        <a className="nav-link active mx-1 px-3 my-1" aria-current="page" href="#speakers">Speakers</a>
                         
 
                         <a href='https://forms.gle/9d3Bd8hEGX4so24p8' target='_blank'>
