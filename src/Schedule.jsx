@@ -9,21 +9,21 @@ function Schedule() {
             imageUrl: Rea,
             category: 'Day 1: 7th September 2024',
             heading: 'Research Paper Writing and Publishing 📝',
-            authorName: 'by Dr. Abhishek Pandey',
+            authorName: 'Dr. Abhishek Pandey',
             
         },
         {
             imageUrl: Inno,
             category: 'Day 2: 14th September 2024',
             heading: 'Innovators Lab 🛠',
-            authorName: 'by Prof. Vishal Dutt',
+            authorName: 'Prof. Vishal Dutt',
             
         },
         {
             imageUrl: Idea,
             category: 'Day 3: 21st September 2024',
             heading: 'Patent Filing 🛡',
-            authorName: 'by Dr. Sartajvir Singh',
+            authorName: 'Dr. Sartajvir Singh',
             
         },
         {
