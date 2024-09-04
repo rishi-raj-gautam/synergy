@@ -7,6 +7,7 @@ import About from './About'
 import Schedule from './Schedule'
 import Footer from './Footer'
 import Speaker from './Speakers'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,7 @@ function App() {
     <Schedule/>
     <Speaker/>
     <Footer/>
-    
+    <Analytics />
     </>
   )
 }
