@@ -31,7 +31,7 @@ function Speaker(){
       <img src={Abhi} className="d-block w-100" alt="..."/>
       <div className="carousel-caption  d-md-block">
         <h5>Abhishek Pandey</h5>
-        <p>Assistant Director, UIE</p>
+        <p>Assistant Director CSE, UIE</p>
       </div>
     </div>
   </div>
