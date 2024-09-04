@@ -13,14 +13,14 @@ function Schedule() {
             
         },
         {
-            imageUrl: Idea,
+            imageUrl: Inno,
             category: 'Day 2: 14th September 2024',
             heading: 'Innovators Lab 🛠',
             authorName: 'by Prof. Vishal Dutt',
             
         },
         {
-            imageUrl: Inno,
+            imageUrl: Idea,
             category: 'Day 3: 21st September 2024',
             heading: 'Patent Filing 🛡',
             authorName: 'by Dr. Sartajvir Singh',
